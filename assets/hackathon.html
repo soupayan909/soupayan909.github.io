@@ -17,6 +17,31 @@
 	</script>
 
 	<style>
+
+
+         #gallery {
+   line-height:0;
+   -webkit-column-count:5; /* split it into 5 columns */
+   -webkit-column-gap:5px; /* give it a 5px gap between columns */
+   -moz-column-count:5;
+   -moz-column-gap:5px;
+   column-count:5;
+   column-gap:5px;
+   # filter: grayscale(100%);
+}
+
+#gallery img {
+   width: 100% !important;
+   height: auto !important;
+   margin-bottom:5px; /* to match column gap */
+   transition: filter 2s;
+}
+
+#gallery img:hover {
+   filter:none;
+}
+
+
 		body {
 			font-family: "Roboto";
 			/*font-family: "Source Sans Pro", SSPro , Helvetica, arial, sans-serif;*/
@@ -561,7 +586,7 @@ blockquote {
 
 	#menu ul li a {
 		color:maroon;
-		font-family: "Roboto";
+		font-family: "Roboto Condensed";
 		font-weight: bold;
 		/* color: cyan; */
 		width:120px;
@@ -607,16 +632,19 @@ blockquote {
 
 	<!-- Menubar-->
 	<div style="width:100%; margin: 0px; padding:0px; border: 0px solid red" id="menu">
-		<ul id="ul1">
+		
+           <ul id="ul1">
             <li><a style="font-weight:bold" href="./about.html" target="_self">ABOUT</a></li>    
             <li><a style="font-weight:bold" href="./hackathon.html" target="_self">HACKATHON</a></li>    
             <li><a style="font-weight:bold" href="./art.html" target="_self">MY ART</a></li>    
-		</ul>
-	</div>
+	    </ul>
 
+	</div>
 
 	<hr style="height:0px; border: 1px solid lightgray;" />
 	<BR>
+
+
 
 	<!-- Column 1-->
 	<div style="width:25%; font-family:Roboto Condensed; margin-left:10px; line-height:150%; float:left; margin-top:-05px; margin-bottom:10px;">
@@ -626,9 +654,8 @@ blockquote {
 		<BR>
 		<img src="github.png" style="width:5%; margin-top:0px;">&nbsp <a href="https://github.com/soupayan909/" target="_blank">Github</a> 
 		<BR>
-		</div>
+	      </div>
 	</div>
-
 
 
 
@@ -636,32 +663,37 @@ blockquote {
 	<!-- Column 2-->
 	<div style="width:72%; margin-left:10px; line-height:150%; float:left; margin-top:-05px; margin-bottom:10px;">
 
-		<h1>ABOUT</h1><BR>
-     I am a student of Grade 11 at Oakridge International School, Hyderabad	
- 		<BR><BR> 
-
-        <span style="font-family:'Roboto Condensed'; font-weight:bold; color:maroon;">ACADEMIC QUALIFICATIONS</span><BR>
-        CBSE Grade 10 : Top 2% among 2.4 Million Students
-        <BR><BR>
-
-		<span style="font-family:'Roboto Condensed'; font-weight:bold; color:maroon;">MY YOUTUBE CHANNELS</span><BR>
+             <h1></h1>		
 		<BR>
+      As I started participating in hackathons, I found them very interesting and wanted to do more of them. I felt that participating in hackathons helps me concentrate on new creations. At the same time, I get many opportunities to learn from these sessions.
 
-		<span style="font-family:'Roboto Condensed'; font-weight:bold; color:maroon;">HOBBIES</span><BR>
-                Sports and Fitness enthusiast
-                <BR>
-                Love Painting
-                <BR>
-                Enjoy Music (Piano)
-		
+     <BR>
+     <BR>
+     <h1>TechXcelerate 2023</h1>
+     <BR>
+      <span style="font-size:120%"><b>Active Mind</b>
+      <a href="https://devpost.com/software/active-mind">Link</a>
+      </span>
+     <BR>
+     I built a gamified mental wellness platform for elderly adults to improve mental health. 
+     <BR>
+     <BR>
+    <img src="https://d1zpw5mq5bnzyn.cloudfront.net/images/0e55a02b4fd6496aa35a2f9d6bfaae34.jpeg" alt="cert" style="width: 25%; height: 25%"/>
+     <BR>
+     <BR>
+	     <h1>STEMist Hacks II</h1>
+     <BR>
+      <span style="font-size:120%"><b>Daily Dose</b>
+      <a href="https://devpost.com/software/daily-dose-medicine-reminder">Link</a>
+      </span>
+     <BR>
+     I built an application for patients and caregiver to create and maintain a list of daily medicines and other medical procedures. Daily Dose helps the users by reminding the doses as per schedule.
+     <BR>
+     <BR>
+
+
+
 	</div>
-
-
-
-
-
-
-
 
 </body>
 
